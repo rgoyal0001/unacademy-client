@@ -1,0 +1,44 @@
+body{
+    background : #F0F4F7
+}
+
+.profileDiv{
+      height : 120px;
+      width : 60%;
+      display : flex;
+      justify-content : space-between;
+      align-items : center;
+      padding : 0px 20px;
+      background : white
+
+}
+
+.formBox{
+    background : white;
+    margin-top : 30px;
+    width : 63%;
+    padding-bottom : 80px;
+}
+
+.formBox > input{
+    border : 2px solid  #F0F4F7;
+    padding : 15px 0px;
+    padding-left : 5px;
+    border-radius : 8px;
+}
+
+.formBox > div >input{
+    border : 2px solid  #F0F4F7;
+    padding : 15px 0px;
+    padding-left : 5px;
+    border-radius : 8px;
+}
+
+#submitBtn{
+     background : #F0F4F7;
+     width : 30%;
+     display : block;
+     cursor : pointer;
+     border-radius : 8px;
+     margin-top : 40px;
+}

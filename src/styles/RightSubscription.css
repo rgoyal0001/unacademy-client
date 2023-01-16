@@ -1,0 +1,82 @@
+/* .monthContainer {
+    
+     
+
+} */
+
+
+.box{
+    width : 100%;
+    min-height : 100px;
+    border-radius : 8px;
+    cursor : pointer;
+    margin-bottom : 20px;
+}
+
+.inactive{
+     border : 2px solid rgb(241, 243, 250);
+     
+}
+
+.active{
+    border : 2px solid #08BD80;
+    transition : all 1.5s;
+}
+
+.box > div.upperChild{
+    display : flex;
+    justify-content : space-between;
+    margin-top : 20px;
+    /* box-sizing: border-box; */
+    margin-left : 10px;
+
+   
+}
+
+.box > div.upperChild > div:nth-child(3){
+      flex : 1
+}
+
+.box > div.upperChild > div:nth-child(2){
+    flex : 4;
+    margin-left : 20px;
+}
+
+/* .box > div.upperChild > div:nth-child(1){
+    margin-left : 20px;
+} */
+
+
+.active > div.upperChild > div:first-child{
+    background : #08BD80;
+
+}
+
+
+
+.box > div.lowerChild{
+    display : flex;
+    justify-content : space-around;
+    margin-top : 40px;
+    font-size : 12px;
+    background : #FFDAE1;
+    height : 40px;
+    width : 100%;
+    box-sizing: border-box;
+    padding-left : 10px;
+    align-items : center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px
+   
+}
+
+.box > div.lowerChild > div:nth-child(3){
+    flex : 1
+}
+
+.box > div.lowerChild > div:nth-child(2){
+  flex : 3;
+  margin-left : 8px;
+}
+
+ 
